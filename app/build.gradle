@@ -45,32 +45,32 @@ configurations.all {
     }
 }
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile rootProject.ext.supportAppcompatV7
-    compile rootProject.ext.supportDesign
-    compile rootProject.ext.supportCardView
-    compile rootProject.ext.supportRecyclerView
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.supportAppcompatV7
+    implementation rootProject.ext.supportDesign
+    implementation rootProject.ext.supportCardView
+    implementation rootProject.ext.supportRecyclerView
 
-    compile rootProject.ext.basicProject
-    compile rootProject.ext.bottomBar
-    compile rootProject.ext.commonAdapter
-    compile rootProject.ext.materialEditText
-    compile rootProject.ext.materialDialog
-    compile rootProject.ext.materialSpinner
-    compile rootProject.ext.sublimePicker
-    compile rootProject.ext.mpAndroidChart
-    compile rootProject.ext.glide
+    implementation rootProject.ext.basicProject
+    implementation rootProject.ext.bottomBar
+    implementation rootProject.ext.commonAdapter
+    implementation rootProject.ext.materialEditText
+    implementation rootProject.ext.materialDialog
+    implementation rootProject.ext.materialSpinner
+    implementation rootProject.ext.sublimePicker
+    implementation rootProject.ext.mpAndroidChart
+    implementation rootProject.ext.glide
 
-    compile rootProject.ext.sqlbrite
-    compile rootProject.ext.rxJava
-    compile rootProject.ext.rxAndroid
-    compile rootProject.ext.rxBinding
+    implementation rootProject.ext.sqlbrite
+    implementation rootProject.ext.rxJava
+    implementation rootProject.ext.rxAndroid
+    implementation rootProject.ext.rxBinding
 
-    compile rootProject.ext.butterknife
-    compile rootProject.ext.dagger2
+    implementation rootProject.ext.butterknife
+    implementation rootProject.ext.dagger2
     annotationProcessor rootProject.ext.butterknifeCompiler
     annotationProcessor rootProject.ext.dagger2Compiler
 
-    compile rootProject.ext.umeng
-    compile rootProject.ext.pgyer
+    implementation rootProject.ext.umeng
+    implementation rootProject.ext.pgyer
 }
