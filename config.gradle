@@ -4,7 +4,6 @@ def dagger2Version = "2.10"
 def rxBindingVersion = "1.0.1"
 
 ext {
-
     android = [
             compileSdkVersion: 25,
             buildToolsVersion: "28.0.3",
